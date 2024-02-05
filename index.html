@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>My web page</title>
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <span class="text-primary">Geek</span>Code
+            </a>
+            <button class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarS"
+            aria-controls="navbarS"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-me" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#ranking" class="nav-link">Ranking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#categories" class="nav-link">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home page -->
+    <section id="home">
+        <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button"
+                data-bs-target="#carouselE"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+                >
+                </button>
+                <button type="button"
+                data-bs-target="#carouselE"
+                data-bs-slide-to="1"
+                aria-current="true"
+                aria-label="Slide 2"
+                >
+                </button>
+                <button type="button"
+                data-bs-target="#carouselE"
+                data-bs-slide-to="2"
+                aria-current="true"
+                aria-label="Slide 3"
+                >
+                </button>
+    
+            </div>
+    
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/home-page1.jpeg" class="d-block w-100" alt="home-page">
+                    <div class="carousel-caption">
+                        <h5>Home page</h5>
+                        <p>
+                            Get passionate about one of the popular topics and trends such as Geek culture 
+                            come and discover about anime and video games.
+                            If you are new, come and explore this new world.
+                        </p>
+                        <a href="#about-me" class="btn btn-primary mt-3">More information</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/home-page2.jpeg" class="d-block w-100" alt="home-page">
+                    <div class="carousel-caption">
+                        <h5>Home page</h5>
+                        <p>
+                            Get passionate about one of the popular topics and trends such as Geek culture 
+                            come and discover about anime and video games.
+                            If you are new, come and explore this new world.
+                        </p>
+                        <a href="#about-me" class="btn btn-primary mt-3">More information</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/home-page3.jpeg" class="d-block w-100" alt="home-page">
+                    <div class="carousel-caption">
+                        <h5>Home page</h5>
+                        <p>
+                            Get passionate about one of the popular topics and trends such as Geek culture 
+                            come and discover about anime and video games.
+                            If you are new, come and explore this new world.
+                        </p>
+                        <a href="#about-me" class="btn btn-primary mt-3">More information</a>
+                    </div>
+                </div>
+            </div>
+    
+            <button 
+                class="carousel-control-prev" 
+                type="button"
+                data-bs-target="#carouselE"
+                data-bs-slide="prev"
+            >
+                <span class="carousel-control-prev-icon"
+                aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button 
+                class="carousel-control-next" 
+                type="button"
+                data-bs-target="#carouselE"
+                data-bs-slide="next"
+            >
+                <span class="carousel-control-next-icon"
+                aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- About page -->
+    <section class="about section-padding" id="about-me">
+        <div class="container">
+            <h2 class="text-center text-white pt-3">About</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img-anime">
+                        <img src="img/about-page1.jpg" class="img-fluid" alt="about page">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text text-white">
+                        <h5>Anime</h5>
+                        <p>
+                            Es un estilo de animación tradicional o por computadora de origen japonés.
+                            En sus inicios, la animación japonesa recibe el nombre de Senga Eiga 
+                            (literalmente “películas de líneas dibujadas”), 
+                            más tarde y, finalmente, sobre 1960 pasará a llamarse "Animeeshon" originalmente 
+                            (アニメーション animēshon). De ahí que se abrevie a "anime" (アニメ).
+                        </p>
+                        <a href="https://es.wikipedia.org/wiki/Anime" class="btn btn-primary">More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img-vg">
+                        <img src="img/about-page2.jpg" class="img-fluid" alt="about page">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text text-white">
+                        <h5>Videogames</h5>
+                        <p>
+                            Un videojuego o juego de video es un software o juego electrónico en el 
+                            que uno o más jugadores interactúan por medio de un controlador, 
+                            con un dispositivo electrónico que muestra imágenes de video.
+                        </p>
+                        <a href="https://es.wikipedia.org/wiki/Videojuego" class="btn btn-primary">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Ranking page -->
+    <section class="ranking section-padding" id="ranking">
+        <div class="container">
+            <h2 class="text-center text-white">Ranking</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-3 pt-3">
+                        <h4>Animes</h4>
+                        <p>
+                            This the top 3 of the best animes in 2023.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-star"></i>
+                            <h3 class="card-title">Shingeki no Kyojin</h3>
+                            <p>
+                                The story takes place in a fictional world in which humanity is on the verge of 
+                                extinction due to humanoid creatures called "titans", 
+                                forcing the survivors to take refuge in three huge walls 
+                                that prevent access to these monsters.
+                            </p>
+                            <a href="https://www.crunchyroll.com/es/series/GR751KNZY/attack-on-titan" class="btn btn-primary">See...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-star"></i>
+                            <h3 class="card-title">SPY X FAMILY</h3>
+                            <p>
+                                It is an anime series about a spy who must quickly form a central family 
+                                to maintain the balance of power between two bordering nations, Westalis and Ostania, 
+                                which are enjoying a period of peaceful coexistence after years of war.
+                            </p>
+                            <a href="https://www.crunchyroll.com/es/series/G4PH0WXVJ/spy-x-family" class="btn btn-primary">See..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-star"></i>
+                            <h3 class="card-title">Sōsō no Frieren</h3>
+                            <p>
+                                A former member of the adventurer's 
+                                group that defeated the Demon King 
+                                of adventurers who defeated the Demon King and restored harmony to 
+                                the world after a ten-year 
+                                world after a ten-year quest.
+                            </p>
+                            <a href="https://www.crunchyroll.com/es/series/GG5H5XQX4/frieren-beyond-journeys-end" class="btn btn-primary">See...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pt-5 pb-3">
+                        <h4>Videogames</h4>
+                        <p>
+                            This the top 3 of the best videogames in 2023.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-controller"></i>
+                            <h3 class="card-title">Tears of the Kingdom</h3>
+                            <p>
+                                It is a 2023 action-adventure game developed and published by 
+                                Nintendo for the Nintendo Switch. The sequel to The Legend of Zelda: 
+                                Breath of the Wild (2017), the player controls Link as he searches for 
+                                a missing Princess Zelda and fights to prevent the Demon King Ganondorf 
+                                from destroying Hyrule.
+                            </p>
+                            <a href="https://www.crunchyroll.com/es/series/GR751KNZY/attack-on-titan" class="btn btn-primary">See...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-controller"></i>
+                            <h3 class="card-title">baldur's gate 3</h3>
+                            <p>
+                                It is a role-playing video game developed by Larian Studios. 
+                                It represents the third main installment of 
+                                the Baldur's Gate series, based on the Dungeons & Dragons 
+                                tabletop role-playing game system.
+                            </p>
+                            <a href="https://www.crunchyroll.com/es/series/G4PH0WXVJ/spy-x-family" class="btn btn-primary">See..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-controller"></i>
+                            <h3 class="card-title">Super Mario Bros. Wonder</h3>
+                            <p>
+                                Super Mario Bros. Wonder is a 2023 platform game developed 
+                                and published by Nintendo for the Nintendo Switch. 
+                                It is the first traditional side-scrolling Super Mario game 
+                                since New Super Mario Bros.
+                            </p>
+                            <a href="https://www.crunchyroll.com/es/series/GG5H5XQX4/frieren-beyond-journeys-end" class="btn btn-primary">See...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Categories page -->
+    <section class="categories section-padding" id="categories">
+        <div class="container">
+            <h2 class="text-center text-white">Categories</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-3 pt-5">
+                        <h4>Animes</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-catego mb-4">
+                                <img src="img/categories-shonen.jpg" 
+                                class="img-fluid"
+                                alt="Category shonen">
+                            </div>
+                            <h3>Shonen</h3>
+                            <p class="lead">
+                                Manga aimed at teenage boys are called shōnen. 
+                                They are series with large doses of action, 
+                                in which there are often humorous situations. 
+                                The companionship between members of a group or a combat team is emphasized.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-catego mb-4">
+                                <img src="img/categories-romcom.jpg" 
+                                class="img-fluid"
+                                alt="Category romance">
+                            </div>
+                            <h3>Romcom (Romance Comedy)</h3>
+                            <p class="lead">
+                                Romantic comedy (also known as romcom or rom-com) is a subgenre of comedy 
+                                and romance fiction, focusing on lighthearted, humorous plot 
+                                lines centered on romantic ideas, 
+                                such as how true love is able to surmount most obstacles.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-catego mb-4">
+                                <img src="img/categories-isekai.jpg" 
+                                class="img-fluid"
+                                alt="Category isekai">
+                            </div>
+                            <h3>Isekai</h3>
+                            <p class="lead">
+                                A typical theme of light novels, manga and anime 
+                                that revolves around a character or a group of characters 
+                                from Earth who intentionally or accidentally end up in a parallel universe, 
+                                a fantasy world, on another planet, where they must adapt to a different world, 
+                                or a different world, 
+                                on another planet, where they must adapt to a different world.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-3 pt-5">
+                        <h4>Videogames</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-catego mb-4">
+                                <img src="img/categories-platform.jpg" 
+                                class="img-fluid"
+                                alt="Category platforms">
+                            </div>
+                            <h3>Platform</h3>
+                            <p class="lead">
+                                sometimes referred to simply as platformers, is a genre of video games 
+                                where the player is in control of a character who must advance through a 
+                                stage by walking, running, jumping, 
+                                bouncing or climbing over a series of platforms and cliffs, defeating enemies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-catego mb-4">
+                                <img src="img/categories-shooters.jpg" 
+                                class="img-fluid"
+                                alt="Category shooters">
+                            </div>
+                            <h3>Shooter</h3>
+                            <p class="lead">
+                                Shooting video games or shooters are a genre that encompasses a large 
+                                number of subgenres that have the common feature of allowing you to control 
+                                a character that, 
+                                as a general rule, has a weapon (mostly firearms) that can be fired at will.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-catego mb-4">
+                                <img src="img/categories-horror.jpg" 
+                                class="img-fluid"
+                                alt="Category horror">
+                            </div>
+                            <h3>Survival horror</h3>
+                            <p class="lead">
+                                Survival horror is a subgenre of horror and action-adventure 
+                                video games that focuses on the character and their journey for survival, 
+                                while at the same time trying to scare the players with different elements.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me -->
+    <section class="contact section-padding" id="contact">
+        <div class="container bg-dark mt-3 p-4 rounded">
+            <h2 class="title-contact text-center text-white">Contact me</h2>
+            <h3 class="text-center text-white">You can contact me in</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="text-contact">
+                        <i class="bi bi-envelope text-white"></i> Email
+                    </h2>
+                    <span class="info-contact-email text-white">angel.garcia4826@alumnos.udg.mx</span>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-contact">
+                      <i class="bi bi-github text-white"></i> Github
+                    </h2>
+                    <a href="https://github.com/AngelGarcia-12"><span class="info-contact-git text-white">AngelGarcia-12</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
